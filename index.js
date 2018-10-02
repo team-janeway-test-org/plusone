@@ -1,3 +1,3 @@
 exports.plusOne = function(x) {
-    return x + 2;
+    return x | 1;
 }
